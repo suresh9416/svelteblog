@@ -17,11 +17,11 @@ export const siteConfig: Site.Config = {
   subtitle: '🚀 QWER - Built using Svelte with ❤',
   description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
   lang: 'en',
-  timeZone: 'Asia/Taipei',
-  since: 2022,
+  timeZone: 'Asia/Singapore',
+  since: 2024,
   cover: SiteCover,
   author: {
-    name: 'John Doe',
+    name: 'Suresh',
     status: '🚀',
     statusTip:
       '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
@@ -33,7 +33,7 @@ export const siteConfig: Site.Config = {
     avatar_512_png: Avatar_512_PNG,
     website: 'https://github.com/kwchang0831/svelte-QWER',
     github: 'https://github.com/kwchang0831',
-    email: 'contact@kwchang0831.dev',
+    email: 'sure9416@gmail.com',
     bio: `Peace begins <br/> With a smile`,
   },
 };
