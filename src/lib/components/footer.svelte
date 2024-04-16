@@ -38,32 +38,17 @@
             <div class="!w-[1.75rem] !h-[1.75rem] i-mdi-sitemap-outline" />
           </a>
         </div>
-        <p itemprop="copyrightNotice">
-          Copyright © <span itemprop="copyrightYear">{copyrightYear}</span>
-          <a href={siteConfig.author.github} rel="external author">
-            <span itemprop="copyrightHolder">{siteConfig.author.name}</span>
-          </a>
-        </p>
         <div class="">
           Powered by
           <a
             use:tippy
             aria-label={$LL.QWER()}
             rel="external"
-            href="https://github.com/kwchang0831/svelte-QWER"
+            href="https://github.com/suresh9416"
             class="font-900">
-            QWER
+            Suresh
           </a>
         </div>
-        <a
-          itemprop="copyrightNotice"
-          href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
-          aria-label="Creative Commons License"
-          target="_blank"
-          rel="noreferrer noopener license external"
-          style="display:inline-block;">
-          CC BY-NC-SA 4.0
-        </a>
       </main>
     </footer>
   {/key}

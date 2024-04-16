@@ -35,7 +35,7 @@
           'rounded-full shadow-xl !w-32 !h-32 aspect-auto object-cover hover:rotate-[360deg] transition-transform duration-1000 ease-in-out'} />
     </picture>
   {:else}
-    <div class="i-line-md-github-loop {className ?? '!h-32 !w-32'}" />
+    <div class="i-line-md-star-alt-twotone {className ?? '!h-32 !w-32'}" />
   {/if}
 </figure>
 
