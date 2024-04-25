@@ -11,194 +11,38 @@
 
 <Post>
   <article slot="post_content">
-    <h2 id="qwer"><a href="#qwer">🎉 QWER</a></h2>
+    <h2 id="hello"><a href="#hello">👋 Hello!</a></h2>
     <p>
-      <a href="https://github.com/kwchang0831/svelte-QWER" rel="external">QWER</a>
-      is a blog starter and static site generator, built with
-      <a href="https://svelte.dev/" rel="external">Svelte</a>
-      and
-      <a href="https://kit.svelte.dev/" rel="external">SvelteKit</a>
-      .
+      I&#39;m Suresh, a Full Stack Web Developer based in Malaysia. I specialize in Magento, WordPress, Shopify,
+      Next.js, and Svelte. My blog is dedicated to exploring the fascinating realms of Artificial Intelligence,
+      Technology, and Web Development. 🤖💻 Dive into the latest innovations and trends in these dynamic fields with me!
     </p>
-    <ImgZoom src="/preview.webp" alt="QWER Preview" />
+    <ImgZoom src="/preview.webp" alt="Suresh's Blog Preview" />
+    <ImgZoom src="/mobile-preview.webp" alt="Suresh's Blog Mobile Preview" />
 
-    <ImgZoom src="/mobile-preview.webp" alt="QWER Mobile Preview" />
-
-    <h2 id="features"><a href="#features">✨ Features</a></h2>
-    <ul>
-      <li>
-        <p>
-          ⚡ Super fast site performance. Near <strong>Perfect</strong>
-          <a href="https://pagespeed.web.dev/" rel="external">PageSpeed</a>
-           score.
-        </p>
-      </li>
-      <li>
-        <p>
-          🤗 SEO ready with meta, <a href="https://ogp.me/" rel="external">Open Graph</a>
-          ,
-          <a href="https://schema.org/" rel="external">Schema</a>
-          ,
-          <a href="https://json-ld.org/" rel="external">JSON-LD</a>
-          ,
-          <a href="https://indieweb.org/microformats2" rel="external">microformats2</a>
-          .
-        </p>
-      </li>
-      <li><p>🔎 On-site Search.</p></li>
-      <li><p>📱 Mobile-First / Responsive design.</p></li>
-      <li>
-        <p>
-          ✍️ Write post with <a href="https://www.markdownguide.org/basic-syntax/" rel="external">Markdown syntax</a>
-          .
-        </p>
-      </li>
-      <li>
-        <p>
-          🧮 🧪 Wirte Math and Chemical formulas with <a
-            href="https://www.math.brown.edu/johsilve/ReferenceCards/TeXRefCard.v1.5.pdf"
-            rel="external">
-            TeX Syntax
-          </a>
-          via
-          <a href="https://katex.org/" rel="external">Katex</a>
-          &amp;
-          <a href="https://mhchem.github.io/MathJax-mhchem/" rel="external">mhchem</a>
-          .
-        </p>
-      </li>
-      <li><p>📁 Folder-based organization for creating posts.</p></li>
-      <li><p>🏷️ Multi-Tags filtering.</p></li>
-      <li><p>📄 Auto-Generate Table of Content for posts.</p></li>
-      <li>
-        <p>
-          📦 Out-of-the-box support for <a href="https://validator.w3.org/feed/docs/atom.html" rel="external">
-            Atom feed
-          </a>
-          , Sitemap,
-          <a href="https://web.dev/progressive-web-apps/" rel="external">PWA</a>
-          ,
-          <a href="https://www.jsonfeed.org/" rel="external">JSON Feed</a>
-          .
-        </p>
-      </li>
-      <li>
-        <p>
-          🖼️ Automatic image optimization via <a href="https://github.com/JonasKruckenberg/imagetools" rel="external">
-            vite-imagetools
-          </a>
-          .
-        </p>
-      </li>
-      <li><p>⚙️ Support embedding Svelte components and Javascript with Markdown.</p></li>
-      <li>
-        <p>
-          💬 Supports <a href="https://github.com/giscus/giscus" rel="external">Giscus</a>
-           - a comments system powerd by Github Discussions.
-        </p>
-      </li>
-      <li>
-        <p>
-          💄 Utilizes <a href="https://github.com/unocss/unocss" rel="external">UnoCSS</a>
-           - the instant on-demand atomic CSS engine.
-        </p>
-      </li>
-      <li>
-        <p>
-          🌐 i18n via <a href="https://github.com/ivanhofer/typesafe-i18n" rel="external">typesafe-i18n</a>
-          .
-        </p>
-      </li>
-      <li>
-        <p>
-          🚀 Deploy the blog <strong>Free</strong>
-          on
-          <a href="https://vercel.com/" rel="external">Vercel</a>
-          or
-          <a href="https://Netlify.com/" rel="external">Netlify</a>
-          .
-        </p>
-      </li>
-    </ul>
+    <h2 id="expertise"><a href="#expertise">🌟 Expertise</a></h2>
+    <p>💻 Experienced in Magento, WordPress, Shopify, Next.js, and Svelte.</p>
+    <p>🚀 Passionate about crafting fast and efficient web experiences.</p>
+    <p>🔍 Dedicated to creating SEO-friendly websites with enhanced performance.</p>
+    <p>📱 Skilled in mobile-first and responsive design principles.</p>
+    <p>✍️ Proficient in Markdown syntax for content creation.</p>
+    <p>📁 Organized approach with folder-based content management.</p>
+    <p>🏷️ Knowledgeable in implementing multi-tag filtering for content.</p>
+    <p>📄 Capable of generating automatic table of contents for posts.</p>
+    <p>⚙️ Able to embed Svelte components and JavaScript within Markdown.</p>
+    <p>💬 Familiar with integrating comments systems like Giscus.</p>
+    <p>🚀 Capable of deploying websites efficiently on Vercel, Netlify or any other platform including AWS.</p>
     <h2 id="learn-more"><a href="#learn-more">📚 Learn More</a></h2>
+    <p>For more details, please refer to my portfolio or reach out via email.</p>
+    <h2 id="thank-you"><a href="#thank-you">🙏 Thank You</a></h2>
+    <p>Thank you for your interest in my work! Feel free to explore and provide feedback. 😊</p>
     <p>
-      Please read more at our <a href="https://docs-svelte-qwer.vercel.app/" rel="external">Documentation</a>
-      .
-    </p>
-    <h2 id="current-state"><a href="#current-state">👷 Current State</a></h2>
-    <p>
-      <a href="https://github.com/kwchang0831/svelte-QWER" rel="external">QWER</a>
-       is at its&#39; very early stage. Kindly expect frequent breaking changes.
-    </p>
-    <p>
-      Just copy and paste your <code class="inline-code-block">user</code>
-       folder to the latest release.
-    </p>
-    <p>
-      Watch out for the CHANGELOG to see if yor are required to migrate <code class="inline-code-block">
-        user/config
-      </code>
-       or other places.
-    </p>
-    <h2 id="issues-problems-questions"><a href="#issues-problems-questions">❓ Issues / Problems / Questions</a></h2>
-    <p>
-      Please take advantage of our <a
-        href="https://github.com/kwchang0831/svelte-QWER/discussions/categories/q-a"
+      Finally, thanks to the amazing work of @kwchang0831, I was able to swiftly build this blog with much less effort
+      using the fantastic Svelte-QWER repository. 🙌🌟 Check it out here: <a
+        href="https://github.com/kwchang0831/svelte-QWER"
         rel="external">
-        Github&#39;s Q&amp;A Discussion board
+        https://github.com/kwchang0831/svelte-QWER
       </a>
-      .
-    </p>
-    <h2 id="are-you-using-qwer"><a href="#are-you-using-qwer">😊 Are you using QWER?</a></h2>
-    <p>
-      Please consider adding <code class="inline-code-block">svelte-qwer</code>
-       topic to your repository.
-    </p>
-    <p>
-      To see who else are using QWER, please check <a href="https://github.com/topics/svelte-qwer" rel="external">
-        Github-Topics: svelte-qwer
-      </a>
-      .
-    </p>
-    <h2 id="support"><a href="#support">🎉 Support</a></h2>
-    <div
-      class="flex"
-      style="display:inline-block; font-size: 24px; --un-bg-opacity: 1; background-color: rgba(255, 221, 0); border-radius: 0.5rem; padding: 12px 18px; border: 2px solid;">
-      <a class="flex" href="https://www.buymeacoffee.com/kwchang0831" style="color: black;">
-        <span>🥓</span>
-        <span>Buy me a Bacon</span>
-      </a>
-    </div>
-
-    <h2 id="license"><a href="#license">📝 License</a></h2>
-    <p><a href="https://github.com/kwchang0831/svelte-QWER/blob/main/LICENSE" rel="external">MIT</a></p>
-    <h2 id="credits"><a href="#credits">🙏 Credits</a></h2>
-    <ul>
-      <li>
-        <p>
-          Cover Photo by <a
-            href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-            Jess Bailey
-          </a>
-          on
-          <a
-            href="https://unsplash.com/s/photos/note?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-            Unsplash
-          </a>
-        </p>
-      </li>
-      <li>
-        <p>
-          Avatar Illustration by <a href="https://icons8.com/illustrations/author/GrbQqWBEhaDS">Liam Moore</a>
-          from
-          <a href="https://icons8.com/illustrations">Ouch!</a>
-        </p>
-      </li>
-    </ul>
-    <h2 id="end"><a href="#end">👍 END</a></h2>
-    <p>
-      Thanks so much for interesting in <a href="https://github.com/kwchang0831/svelte-QWER" rel="external">QWER</a>
-      . Please try it out and let me know what you think 😊.
     </p>
   </article>
 </Post>

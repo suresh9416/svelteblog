@@ -15,7 +15,6 @@ import {
   readMetaIntoMemory,
 } from './lib/processFile.js';
 import { rmFile, rmDir } from './utli/fsHelper.js';
-
 await initialize();
 
 switch (process.argv[2]) {

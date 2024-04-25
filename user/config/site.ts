@@ -1,6 +1,7 @@
 import type { Site } from '$lib/types/site';
 import type { Giscus } from '$lib/types/giscus';
 import type { DD } from '$lib/types/dd';
+import 'resize-observer-polyfill';
 
 import Avatar from '$assets/avatar.png';
 import Avatar_128 from '$assets/avatar.png?w=128&h=128&format=avif;webp&imagetools';
@@ -13,7 +14,7 @@ import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://github.com/suresh9416',
-  title: 'Suresh Blog',
+  title: '🦇TOWN',
   subtitle: '⭐ Suresh - Built with Svelte',
   description: '⭐ Suresh - Awesome Blog with ❤',
   lang: 'en',
@@ -22,7 +23,7 @@ export const siteConfig: Site.Config = {
   cover: SiteCover,
   author: {
     name: 'Suresh',
-    status: '⭐',
+    status: '☢',
     statusTip:
       '<a href="https://github.com/suresh9416" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >My</a> blog!',
     avatar: Avatar,
