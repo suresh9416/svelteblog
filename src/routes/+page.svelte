@@ -11,7 +11,7 @@
   import { fly } from 'svelte/transition';
   import { Carousel, Thumbnails, Button, Indicator } from 'flowbite-svelte';
   import { CaretRightOutline } from 'flowbite-svelte-icons';
-  import images from '$lib/components/imageData/images.json-';
+  import images from '$lib/components/imageData/images.json';
   let index = 0;
   let image: { alt: any; };
 
