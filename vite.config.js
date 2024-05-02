@@ -33,6 +33,25 @@ export default defineConfig({
     __VERSION_MAIN__: mainPkg,
     __VERSION_QWER__: qwerPkg,
   },
+  kit: {
+    // Other config options
+    prerender: {
+      onError: 'continue',
+      // Handle HTTP errors (e.g., 404)
+      async onDemand({ serverError, response }) {
+        if (serverError.status === 404) {
+          // Handle 404 error here (e.g., redirect or render a custom error page)
+          return {
+            html: '<p>Custom 404 Error Page</p>',
+            status: 404,
+          };
+        }
+
+        // For other HTTP errors, return the default error response
+        return response;
+      },
+    },
+  },
   plugins: [
     Unocss({
       extractors: [extractorSvelte()],
