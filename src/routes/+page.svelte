@@ -11,7 +11,6 @@
   import { fly } from 'svelte/transition';
   import { Carousel, Thumbnails, Button, Indicator } from 'flowbite-svelte';
   import { CaretRightOutline } from 'flowbite-svelte-icons';
-  import images from '$lib/components/imageData/images.json';
   let index = 0;
   let image: { alt: any; };
 
@@ -106,20 +105,5 @@
     {#if $tagsShowDesktop}
       <Tags class="hidden max-w-[20rem] my4 rounded-2xl p4 xl:(flex flex-col min-w-[12rem] sticky top-[4rem])" />
     {/if}
-  </div>
-</div>
-
-<div class="max-w-4xl mx-auto space-y-4 items-center justify-center pt-20">
-
-  <Carousel {images} let:Indicators let:Controls on:change={({ detail }) => (image = detail)}>
-    <Controls let:changeSlide let:ControlButton>
-      <ControlButton name="Previous" forward={false} on:click={changeSlide(false)} class="bg-red-300/0" />
-      <ControlButton name="Next" forward={true} on:click={changeSlide(true)} class="bg-red-300/0" />
-    </Controls>
-    <Indicators />
-  </Carousel>
-
-  <div class="rounded h-10 bg-gray-300 dark:bg-gray-700 dark:text-white p-2 my-2 text-center">
-    {image?.alt}
   </div>
 </div>
