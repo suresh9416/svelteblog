@@ -56,14 +56,11 @@ export const headConfig: Site.Head = {
           // '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
           // '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
           // Google tag (gtag.js)
-          `<script type="text/partytown" src=""></script>`,
+          `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-BBC849D965"></script>`,
           `<script type="text/partytown">
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBC849D965"></script>
-          <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-          
             gtag('config', 'G-BBC849D965');
           </script>`,
         ],
