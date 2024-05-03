@@ -121,6 +121,7 @@
     "vite-imagetools": "^6.2.9"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "flowbite-svelte": "^0.45.0",
     "flowbite-svelte-icons": "^1.5.0",
     "resize-observer-polyfill": "^1.5.1",
