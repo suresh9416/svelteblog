@@ -12,11 +12,6 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 
 import SiteCover from '$assets/qwer.webp';
 
-import { inject } from '@vercel/analytics';
-import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-
-injectSpeedInsights();
-
 export const siteConfig: Site.Config = {
   url: 'https://github.com/suresh9416',
   title: '🦇TOWN',
