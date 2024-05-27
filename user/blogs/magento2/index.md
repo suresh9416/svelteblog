@@ -146,6 +146,7 @@ bin/magento setup:install --base-url=http://example.com \
 --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD \
 --timezone=America/Chicago --use-rewrites=1
 
+```
 ## Conclusion
 
 Congratulations! You have successfully installed Magento 2.4.5 on Ubuntu 22.04. You can now access your Magento store through your browser and start customizing it to fit your e-commerce needs. For further customization and optimization, refer to Magento's official documentation and community resources.
